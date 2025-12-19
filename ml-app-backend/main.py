@@ -132,7 +132,7 @@ def  generate_report(
         prediction: float):
   # PDF文件
   pdfmetrics.registerFont(
-    TTFont("SimHei","C:/Windows/Fonts/simhei.ttf")
+    TTFont("SimHei", "simhei.ttf")
   )
 
   # 创建一张白纸
